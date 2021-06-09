@@ -1,0 +1,12 @@
+header {
+    background-color: firebrick;
+}
+
+body {
+    background-color: skyblue;
+}
+
+img {
+    max-height: 400px;
+    width: auto;
+}
