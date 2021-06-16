@@ -15,6 +15,6 @@ each following card is designed to maintain a 2 per row system of images. the la
 the contact section features a link to my github, a mailto for my email adress, and a placeholder phone number
 
 ## screenshot
-https://github.com/Copernichris/homework-2/blob/main/screenshot.jpg
+![screenshot](https://github.com/Copernichris/homework-2/blob/main/screenshot.jpg)
 ## link
 https://copernichris.github.io/homework-2/
