@@ -59,7 +59,7 @@ figure img{
 
 .projects a{
     display: flex;
-    width: 500px;
+    width: 700px;
     max-width: 50%;
     margin: auto;
     background-color: #a239ca;
@@ -67,7 +67,7 @@ figure img{
 
 .project-card-main{
   margin: auto;
-  width: 1000px;
+  width: 1100px;
   max-width: 80%;
 }
 
