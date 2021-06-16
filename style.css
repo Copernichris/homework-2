@@ -60,6 +60,7 @@ figure img{
 .projects a{
     display: flex;
     width: 700px;
+    min-width: 35%;
     max-width: 50%;
     margin: auto;
     background-color: #a239ca;
