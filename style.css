@@ -10,7 +10,7 @@
 body {
     padding: 10px;
     background-color: #0e0b16;
-    text-align: center;
+    text-align: center; /*sets defaults for content to be centered*/
 }
 
 header {
@@ -26,7 +26,7 @@ nav ul {
 }
   
 nav li {
-    float: left;
+    float: left; /*aligns nav to left*/
 }
   
 nav li a {
@@ -38,21 +38,27 @@ nav li a {
 }
   
 nav li a:hover {
-    background-color: #4717f6;
+    background-color: #4717f6; /*hover color*/
 }
 
 figure img{
-    width: 40%;
+    width: 40%; /*static img width scales to window*/
 }
 
-.headshot {
+.headshot { /*creates a circular image and gives it a pinkish border*/
     border-radius: 50%;
     border-color: #a239ca;
     border-style: solid;
     border-width: 2%;
 }
 
-.projects{
+.project-card-main{
+    margin: auto;
+    width: 1100px;
+    max-width: 80%;
+  }
+
+.projects{ /*sets up flex box for the projects cards*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -60,21 +66,17 @@ figure img{
 .projects a{
     display: flex;
     width: 700px;
-    min-width: 35%;
-    max-width: 50%;
-    margin: auto;
+    min-width: 35%; /*when screen is large, card is just large enough to now allow a 3rd card on the row*/
+    max-width: 50%; /*when screen is small, cards consume exactly half of screen*/
+    margin: auto; /*centerss the cards*/
     background-color: #a239ca;
     }
 
-.project-card-main{
-  margin: auto;
-  width: 1100px;
-  max-width: 80%;
-}
+
 
 .project-card{
     justify-content: center;
-    width: 100%;
+    width: 100%; /*flex is technically being applied to the anchor tag, so we just want the images to fill the entirety of the ancor*/
    
 }
 
