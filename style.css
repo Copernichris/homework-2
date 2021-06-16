@@ -10,6 +10,7 @@
 body {
     padding: 10px;
     background-color: #0e0b16;
+    text-align: center;
 }
 
 header {
@@ -40,8 +41,39 @@ nav li a:hover {
     background-color: #4717f6;
 }
 
-/* remove later */
-img {
-    max-height: 400px;
-    width: auto;
+figure img{
+    width: 40%;
 }
+
+.headshot {
+    border-radius: 50%;
+    border-color: #a239ca;
+    border-style: solid;
+    border-width: 2%;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects a{
+    display: flex;
+    width: 500px;
+    max-width: 50%;
+    margin: auto;
+    background-color: #a239ca;
+    }
+
+.project-card-main{
+  margin: auto;
+  width: 1000px;
+  max-width: 80%;
+}
+
+.project-card{
+    justify-content: center;
+    width: 100%;
+   
+}
+
